@@ -1,0 +1,96 @@
+<!-- Create your About page here. Tell us about the author (you!) -->
+<!doctype html>
+
+<html lang="“en-CA”" dir="“ltr”">
+  <head>
+    <meta charset="“utf-8”" />
+    <title>About the author, Rebecca Rafeek</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
+    <style>
+      h1 {
+        text-align: center;
+        color: hsl(205, 69%, 87%);
+      }
+      nav ul {
+        color: hsl(205, 69%, 87%);
+        position: fixed;
+        top: 0;
+        list-style-type: none;
+        padding: 10px;
+        margin: 0;
+        text-align: left;
+        width: 100%;
+        justify-content: center;
+        gap: 5px;
+        display: flex;
+      }
+      nav ul li {
+        margin: 0 5px;
+      }
+      nav ul li a {
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+      body {
+        background: rgb(2, 56, 99);
+        background: linear-gradient(
+          90deg,
+          rgba(2, 56, 99, 1) 4%,
+          rgba(5, 111, 149, 1) 75%,
+          rgba(0, 183, 255, 1) 100%
+        );
+      }
+      h2 {
+        padding-left: 50px;
+      }
+      time {
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        background-color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About Me</h1>
+    <nav>
+      <ul>
+        <li><a href="./honesty.html">Honesty Statement</a></li>
+        <li><a href="./index.html">Home</a></li>
+      </ul>
+    </nav>
+    <h2><strong>Hi!</strong></h2>
+    <figure>
+      <picture>
+        <source srcset="rebecca.webp" type="image/webp" />
+        <source srcset="rebecca.avif" type="image/avif" />
+
+        <!-- Fallback, default image in JPG format -->
+        <img
+          src="rebecca.jpg"
+          alt="A picture of the author(who has brown hair and is wearing glasses) infront of a piece of abstract art."
+          width="400"
+          loading="eager"
+        />
+      </picture>
+      <figcaption><em>This is me. </em></figcaption>
+    </figure>
+    <p>
+      My name is Rebecca Rafeek and I am from Trinidad and Tobago, a beautiful island in the
+      Caribbean. The Caribbean has been my home my entire life and for three wonderful years I had
+      the privilege of living in Barbados.
+    </p>
+    <p>
+      I'm excited to share this website about it and offer you a glimpse of what makes this little
+      rock in the sun so special!
+    </p>
+
+    <footer>
+      <section>
+        <p>All rights reserved - Rebecca Rafeek<time datetime="2024">2024</time></p>
+      </section>
+    </footer>
+  </body>
+</html>
