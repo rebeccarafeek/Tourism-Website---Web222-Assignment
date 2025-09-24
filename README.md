@@ -1,6 +1,6 @@
 # Barbados Tourism Website
 
-## My first ever webpage!
+*My first ever webpage!*
 
 This project was created as part of my WEB222 course. The assignment was to develop a tourism-focused website for a location of our choice and I chose the beautiful island of Barbados.
 
